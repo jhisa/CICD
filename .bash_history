@@ -44,3 +44,63 @@ ubuntu@ubuntu:~/myapp$
 clear
 ls
 exit
+python3 -m venv venv
+sudo apt install python3.12-venv
+clear
+python3 -m venv venv
+source venv/bin/activate
+pwd
+sudo nano app.py
+ls
+cat app.py 
+clear
+ls
+echo "Flask==2.0.1" > requirements.txt
+sudo nano test_app.py
+ls
+cat test_app.py 
+ls
+clear
+sudo nano Dockerfile
+cat Dockerfile
+ls
+git init
+ls
+clear
+ls -la
+git status
+git add .
+git commit -am "Inicial commit"
+clear
+ls
+git log
+git remote add origin https://github.com/jhisa/CICD.git
+git branch -M main
+git push -u origin main
+(venv) ubuntu@ubuntu:~$ git push -u origin main
+Username for 'https://github.com': jhisa
+Password for 'https://jhisa@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-r                  emote-repositories#cloning-with-https-urls for information on currently recommended mod                  es of authentication.
+fatal: Authentication failed for 'https://github.com/jhisa/CICD.git/'
+dddd
+clear
+pwd
+ls
+celar
+clear
+ls
+git remote add origin https://github.com/jhisa/CICD.git
+git branch -M main
+git push -u origin main
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install -y jenkins
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+clear
+exit
