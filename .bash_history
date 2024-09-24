@@ -104,3 +104,68 @@ sudo systemctl enable jenkins
 sudo systemctl start jenkins
 clear
 exit
+clear
+pwds
+pwd
+ls
+sudo nano app.py 
+git status
+git add .
+git log
+git commit -am "subir a github"
+git log
+git push
+clear
+ls
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install -y jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins.service
+sudo cat /var/log/jenkins/jenkins.log
+java -version
+sudo apt install openjdk-11-jdk
+sudo systemctl restart jenkins
+cd /var/lib/jenkins/secrets/initialAdminPassword
+sudo cd /var/lib/jenkins/secrets/initialAdminPassword
+sudo cd /var/lib/jenkins/
+pwd
+cd /
+ls
+cd var
+ls
+cd lib
+ls
+cd jenkins/
+clear
+ls
+cd secrets/
+sudo cd secrets/
+clear
+cd /
+sudo su
+clear
+ls
+pwd
+cd home
+ls
+cd ubuntu/
+ls
+clear
+ls
+sudo nano Jenkinsfile
+ls
+cat Jenkinsfile 
+clear
+ls
+git status
+git add .
+git commit -am "Agregar Jenkinsfile"
+git push origin main
+sudo apt update
+sudo apt install ngrok
+sudo snap install ngrok
+ngrok http 8080
+ngrok config add-authtoken 2mS55n3wqwWNsSmxOiMtCKRMqmI_7Cy15GQ5whyvMNLhymiZF
+ngrok http http://localhost:8080
